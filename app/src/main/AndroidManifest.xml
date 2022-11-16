@@ -30,6 +30,7 @@
         <activity android:name=".Ciasto"></activity>
         <activity android:name=".Podsumowanie"></activity>
         <activity android:name=".WiFi"></activity>
+        <activity android:name=".Hot_lvl"></activity>
     </application>
 
 </manifest>

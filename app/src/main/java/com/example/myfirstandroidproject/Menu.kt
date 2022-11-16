@@ -55,10 +55,7 @@ class Menu : AppCompatActivity() {
     }
 
     fun surePeperoni(view: View?) {
-        val menu = "Rodzaj: Pizza Peperoni, "
-        val intent = Intent(this, Rozmiar::class.java).apply {
-            putExtra(EXTRA_MESSAGE, menu)
-        }
+        val intent = Intent(this, Hot_lvl::class.java)
         startActivity(intent)
     }
 
