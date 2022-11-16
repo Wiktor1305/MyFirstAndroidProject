@@ -6,56 +6,40 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/rozmiar"
+        android:id="@+id/ciasto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Wybierz rozmiar pizzy:"
+        android:text="Wybierz ciasto:"
         android:textAlignment="center"
-        android:textColor="#044507"
+        android:textColor="#593C13"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/mala"
+        android:id="@+id/cienkie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:onClick="malaPizza"
-        android:text="Mała (30cm)"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rozmiar" />
-
-    <Button
-        android:id="@+id/srednia"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:onClick="sredniaPizza"
-        android:text="Średnia (40cm)"
+        android:layout_marginTop="100dp"
+        android:text="Ciasto cienkie"
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mala" />
+        app:layout_constraintTop_toBottomOf="@+id/ciasto" />
 
     <Button
-        android:id="@+id/duza"
+        android:id="@+id/puszyste"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:onClick="duzaPizza"
-        android:text="Duża (50cm)"
+        android:layout_marginTop="100dp"
+        android:text="Ciasto puszyste"
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/srednia" />
+        app:layout_constraintTop_toBottomOf="@+id/cienkie" />
 </androidx.constraintlayout.widget.ConstraintLayout>

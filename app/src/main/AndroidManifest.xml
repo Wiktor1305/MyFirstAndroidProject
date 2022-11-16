@@ -27,6 +27,7 @@
         </activity>
         <activity android:name=".Menu"></activity>
         <activity android:name=".Rozmiar"></activity>
+        <activity android:name=".Ciasto"></activity>
     </application>
 
 </manifest>

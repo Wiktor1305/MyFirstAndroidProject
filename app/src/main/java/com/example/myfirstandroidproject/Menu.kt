@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
-const val EXTRA_MESSAGE="com.example.pizzaskowronski.MESSAGE"
+const val EXTRA_MESSAGE="com.example.myfirstandroidproject.MESSAGE"
 
 class Menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
