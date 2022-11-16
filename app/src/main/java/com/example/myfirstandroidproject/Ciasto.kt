@@ -10,13 +10,23 @@ class Ciasto : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pizza_ciasto)
     }
+
     fun cienkieCiasto(view: View){
-        val intent = Intent(this, Podsumowanie::class.java)
+        val rozmiar=intent.getStringExtra(EXTRA_MESSAGE)
+        val ciasto = rozmiar+"rodzaj ciasta: cienkie."
+        val intent = Intent(this, Podsumowanie::class.java).apply {
+            putExtra(EXTRA_MESSAGE, ciasto)
+        }
         startActivity(intent)
     }
 
     fun puszysteCiasto(view: View){
-        val intent = Intent(this, Podsumowanie::class.java)
+        val rozmiar=intent.getStringExtra(EXTRA_MESSAGE)
+        val ciasto = rozmiar+"rodzaj ciasta: puszyste."
+        val intent = Intent(this, Podsumowanie::class.java).apply {
+            putExtra(EXTRA_MESSAGE, ciasto)
+        }
         startActivity(intent)
     }
+
 }

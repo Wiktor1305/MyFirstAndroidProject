@@ -10,21 +10,35 @@ class Rozmiar : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pizza_rozmiar)
     }
+
     fun malaPizza(view: View){
-        val intent = Intent(this, Ciasto::class.java)
+        val menu=intent.getStringExtra(EXTRA_MESSAGE)
+        val rozmiar = menu+"rozmiar: mała (30cm), "
+        val intent = Intent(this, Ciasto::class.java).apply {
+            putExtra(EXTRA_MESSAGE, rozmiar)
+        }
         startActivity(intent)
 
     }
 
     fun sredniaPizza(view: View){
-        val intent = Intent(this, Ciasto::class.java)
+        val menu=intent.getStringExtra(EXTRA_MESSAGE)
+        val rozmiar = menu+"rozmiar: średnia (40cm), "
+        val intent = Intent(this, Ciasto::class.java).apply {
+            putExtra(EXTRA_MESSAGE, rozmiar)
+        }
         startActivity(intent)
 
     }
 
     fun duzaPizza(view: View){
-        val intent = Intent(this, Ciasto::class.java)
+        val menu=intent.getStringExtra(EXTRA_MESSAGE)
+        val rozmiar = menu+"rozmiar: duża (50cm), "
+        val intent = Intent(this, Ciasto::class.java).apply {
+            putExtra(EXTRA_MESSAGE, rozmiar)
+        }
         startActivity(intent)
 
     }
+
 }
