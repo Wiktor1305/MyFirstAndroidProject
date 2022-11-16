@@ -10,4 +10,4 @@ Wybieramy pizze która nas interesuje, jej rozmiar i rodzaj ciasta z którego ma
 -Broadcast Receiver wykorzystany jest aby włączyć WiFi w celu złożenia zamówienia online.
 
 Link do filmiku z prezentacją aplikacji:
-https://drive.google.com/file/d/15OG8zRZFByUs7RUUuiE844L3tf80wDe4/view?usp=sharing
+https://m365ht-my.sharepoint.com/:v:/g/personal/wrx71300_student_wsb_wroclaw_pl/EWtgarX_JBROkREgP4g97eoBdY-AgWCjJGm9GCgpp01x9w?e=nQAgaS
