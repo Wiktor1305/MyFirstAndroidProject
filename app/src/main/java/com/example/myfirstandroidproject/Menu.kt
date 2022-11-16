@@ -15,6 +15,7 @@ class Menu : AppCompatActivity() {
         setContentView(R.layout.pizza_menu)
     }
 
+    //Pizza Hawajska
     fun sureHawajska(view: View?) {
         //Wykorzystanie klasy Android AlertDialog.
         val builder = AlertDialog.Builder(this@Menu)
@@ -54,11 +55,13 @@ class Menu : AppCompatActivity() {
         dialog.show()
     }
 
+    //Pizza Peperoni
     fun surePeperoni(view: View?) {
         val intent = Intent(this, Hot_lvl::class.java)
         startActivity(intent)
     }
 
+    //Pizza Wiejska
     fun sureWiejska(view: View?) {
         val menu = "Rodzaj: Pizza Wiejska, "
         val intent = Intent(this, Rozmiar::class.java).apply {
@@ -67,6 +70,7 @@ class Menu : AppCompatActivity() {
         startActivity(intent)
     }
 
+    //Pizza Kebab
     fun sureKebab(view: View?) {
         val menu = "Rodzaj: Pizza Kebab, "
         val intent = Intent(this, Rozmiar::class.java).apply {

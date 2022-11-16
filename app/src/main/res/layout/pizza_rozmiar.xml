@@ -12,7 +12,7 @@
         android:layout_marginTop="40dp"
         android:text="Wybierz rozmiar pizzy:"
         android:textAlignment="center"
-        android:textColor="#044507"
+        android:textColor="#0B0B0B"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

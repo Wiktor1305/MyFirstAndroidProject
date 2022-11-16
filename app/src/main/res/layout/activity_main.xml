@@ -13,6 +13,7 @@
         android:onClick="wyborPizzy"
         android:text="Witaj w Pizzeri &quot;Skowroński&quot;!!!"
         android:textAlignment="center"
+        android:textColor="#B35538"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

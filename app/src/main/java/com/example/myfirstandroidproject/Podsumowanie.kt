@@ -9,6 +9,7 @@ class Podsumowanie : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pizza_podsumowanie)
 
+        //przesłane wartości konstruują nam podsumowanie z dokonanych wyborów
         val ciasto=intent.getStringExtra(EXTRA_MESSAGE)
         val textView=findViewById<TextView>(R.id.wielkosc).apply{
             text=ciasto

@@ -14,6 +14,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class WiFi : AppCompatActivity() {
+    //wykorzystanie komponentu Android Broadcast Receiver do włączania WiFi w smartfonie
+
     lateinit var wifiSwitch: Switch
     lateinit var wifiManager: WifiManager
 

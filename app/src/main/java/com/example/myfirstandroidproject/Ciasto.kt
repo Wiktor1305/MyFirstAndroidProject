@@ -11,6 +11,7 @@ class Ciasto : AppCompatActivity() {
         setContentView(R.layout.pizza_ciasto)
     }
 
+    //Ciasto cienkie
     fun cienkieCiasto(view: View){
         val rozmiar=intent.getStringExtra(EXTRA_MESSAGE)
         val ciasto = rozmiar+"rodzaj ciasta: cienkie."
@@ -20,6 +21,7 @@ class Ciasto : AppCompatActivity() {
         startActivity(intent)
     }
 
+    //Ciasto puszyste
     fun puszysteCiasto(view: View){
         val rozmiar=intent.getStringExtra(EXTRA_MESSAGE)
         val ciasto = rozmiar+"rodzaj ciasta: puszyste."

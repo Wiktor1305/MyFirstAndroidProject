@@ -11,6 +11,7 @@ class Rozmiar : AppCompatActivity() {
         setContentView(R.layout.pizza_rozmiar)
     }
 
+    //Rozmiar: mała
     fun malaPizza(view: View){
         val menu=intent.getStringExtra(EXTRA_MESSAGE)
         val rozmiar = menu+"rozmiar: mała (30cm), "
@@ -21,6 +22,7 @@ class Rozmiar : AppCompatActivity() {
 
     }
 
+    //Rozmiar: średnia
     fun sredniaPizza(view: View){
         val menu=intent.getStringExtra(EXTRA_MESSAGE)
         val rozmiar = menu+"rozmiar: średnia (40cm), "
@@ -31,6 +33,7 @@ class Rozmiar : AppCompatActivity() {
 
     }
 
+    //Rozmiar: duża
     fun duzaPizza(view: View){
         val menu=intent.getStringExtra(EXTRA_MESSAGE)
         val rozmiar = menu+"rozmiar: duża (50cm), "
