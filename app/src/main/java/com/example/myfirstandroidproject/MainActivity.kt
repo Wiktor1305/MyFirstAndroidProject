@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
     //Uruchomienie nowej aktywności
     fun wyborPizzy(view: View?) {
-        val intent = Intent(this, Menu::class.java)
+        val intent = Intent(this, WiFi::class.java)
         startActivity(intent)
     }
 }

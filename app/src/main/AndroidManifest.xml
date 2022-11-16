@@ -29,6 +29,7 @@
         <activity android:name=".Rozmiar"></activity>
         <activity android:name=".Ciasto"></activity>
         <activity android:name=".Podsumowanie"></activity>
+        <activity android:name=".WiFi"></activity>
     </application>
 
 </manifest>
